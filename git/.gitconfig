@@ -1,0 +1,13 @@
+[user]
+	name = Tom Hudson
+	email = trhudson@gmail.com
+[github]
+	user = tomrhudson
+[core]
+	excludesfile = ~/.gitignore_global
+	editor = nano
+	filemode = false
+	trustctime = false
+	autocrlf = input
+  [credential]
+    helper = osxkeychain

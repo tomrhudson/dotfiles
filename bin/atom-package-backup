@@ -1,0 +1,13 @@
+#!/bin/sh
+#
+# Usage: atom-package-backup
+#
+# chmod +x <FILENAME> and then ./<FILENAME> to execute
+#
+# Saves a list of your currently installed atom packages to
+# ~/Desktop/Development/Web/dotfiles/atom.symlink/packages.txt suitable for install
+# via atom-package-install
+
+set -e
+
+apm list --installed --bare > ~/Desktop/Development/Web/dotfiles/atom.symlink/packages.txt

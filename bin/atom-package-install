@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# Usage: atom-package-install
+#
+# chmod +x <FILENAME> and then ./<FILENAME> to execute
+#
+# Installs the atom packages listed in your packages.txt file
+# located at ~/Desktop/Development/Web/dotfiles/atom.symlink/packages.txt
+#
+# You can generate a new list based on currently installed
+# packages via atom-package-backup
+
+set -e
+
+apm install --packages-file ~/Desktop/Development/Web/dotfiles/atom.symlink/packages.txt
