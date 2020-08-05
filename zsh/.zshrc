@@ -3,9 +3,7 @@
 #Then open/create correct file. For Bash it's $HOME/.bash_profile or $HOME/.bashrc. For Z shell it's $HOME/.zshrc
 
 # SSH Accounts
-alias ssh-pi1='ssh ragnar@192.168.110.163'
-alias ssh-pi2='ssh pi@192.168.110.224'
-alias ssh-pi3='ssh pi@192.168.110.227'
+# information to connect to SSH accounts is stored in ~/.ssh/config
 
 
 # MongoDB
